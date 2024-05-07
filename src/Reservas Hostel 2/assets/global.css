@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    display: flex;
+    min-height: 100vh;
+    margin-bottom: 5rem;
+    flex-direction: column;
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: #f2f0f0;
+  width: 100%;
+  margin: 0 0 7rem 0;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  color: #818181;
+}
+
+.line-localization {
+  width: 15%;
+  margin-top: 0.7rem;
+  background: #9e2fba;
+  border: 4px solid transparent;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 1.5rem;
+  top: 0;
+  margin-top: 2rem;
+  width: 97%;
+  position: absolute;
+}
+
+.box-container {
+  width: 100%;
+  padding: 2rem;
+  border-radius: 3px;
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  background: #d9d9d9;
+}
+
+.endereco {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.button-global {
+  padding: 1rem;
+  margin-top: 1rem;
+  background: #9e2fba;
+  color: #fff;
+  width: auto;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.input {
+  border: transparent;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.rota {
+  margin-top: 1rem !important;
+}
+
+.button-global:hover {
+  transition: all 0.3s;
+  background: #86289e;
+}
+
+.comentario-button {
+  display: flex;
+  border-radius: 50px;
+  font-size: 16px;
+  justify-content: space-between;
+  align-items: center;
+  background: #9e2fba;
+  padding: 0.6rem 1rem 0.6rem 0.4rem;
+  font-weight: bold;
+}
+
+.comentario {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ebebeb;
+  max-width: 900px;
+  padding: 1rem;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.comment {
+  color: #fff;
+  margin-left: 1.5rem;
+}
+
+.image-comment {
+  width: 60px;
+  height: 60px;
+}
+
+.form-review {
+  background: #fff;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.gender {
+  margin-top: 3rem;
+  font-size: 16px;
+}
+
+.payment-title {
+  width: 100%;
+  text-align: center;
+}
+
+.input-form {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 1rem;
+  font-size: 16px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+input[type="radio"] {
+  margin-left: 1rem;
+  margin-top: 3rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+input[type="date"] {
+  margin-top: 2rem;
+  background: #f0f0f0;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.steps-dados {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.termo {
+  font-size: 16px;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.dados-confirmacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 40%;
+}
+
+.img-responsive {
+  width: 100px;
+  height: 100px;
+}
+
+.dados-active {
+  border-radius: 13px;
+  background: #9e2fba;
+  padding: 1rem;
+  width: 200px;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.dados-disable {
+  border-radius: 13px;
+  background: #d9d9d9;
+  padding: 1rem;
+  width: 200px;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.barra-container {
+  display: flex;
+  left: 0;
+  position: absolute;
+  margin-top: 350px;
+  width: 100%;
+  z-index: -1;
+}
+
+.barra {
+  background: #d1d1d1;
+  width: 100%;
+  height: 250px;
+}

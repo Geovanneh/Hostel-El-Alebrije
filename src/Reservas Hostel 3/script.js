@@ -1,0 +1,3 @@
+function finalizar(){
+   alert("finalizar");
+}

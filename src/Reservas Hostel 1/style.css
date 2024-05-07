@@ -1,0 +1,106 @@
+aside {
+  display: flex;
+  list-style: none;
+  flex-direction: row-reverse;
+}
+
+.list-group-item {
+  display: flex;
+  list-style: none;
+  background-color: rgb(197 190 190 / 50%);
+  /* padding: 5px; */
+}
+/**/
+
+img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+span {
+  margin-left: 5px;
+}
+
+.all {
+  display: flex;
+}
+
+/* formulario */
+button, input {
+  display: flex;
+  margin-bottom: 10px;
+  width: 400px;
+  height: 40px;
+}
+
+#alert {
+  display: none;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #9E2FBA;
+  border-radius: 50px;
+  color: aliceblue;
+}
+
+.forms {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 500px;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #9e2fba;
+  color: #fff;
+  width: 100%;
+  padding: 1rem 2.5rem;
+  bottom: 0;
+  left: 0;
+  /* z-index: 9; */
+  position: fixed;
+}
+p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+
+.footerSide {
+  display: flex;
+  align-items: center;
+}
+.footer-logo {
+  width: 7rem;
+}
+
+span {
+  font-size: 16px;
+}
+
+.footer-logo {
+  width: 8rem;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  border-left: 1px solid #fff;
+}
+
+a {
+  color: #fff;
+  padding: 0.8rem;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+img {
+  height: 30px;
+}
