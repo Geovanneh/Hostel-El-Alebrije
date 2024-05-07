@@ -1,6 +1,6 @@
 # Registro de Testes de Software
 ## CT-01 - Validação dos Campos do Formulário
-### Desenvolvedor(a): Saory Nayara Vieira Nakabori, Gabriella Bradley Cusnir
+### Desenvolvedor(a): Saory Nayara Vieira Nakabori, Geovanne Marco Correa da Silva
 
 ![image](https://user-images.githubusercontent.com/97962041/204152804-1706e032-a76a-4e70-8c9f-20bf4d42b5d0.png)
 ![image](https://user-images.githubusercontent.com/97962041/204152845-c1622116-a165-4623-9262-82c9119075ff.png)
@@ -36,7 +36,7 @@
 
 
 ## CT-05 - Teste do Carrossel de Imagens
-### Desenvolvedor(a): Geovanne Marco Correa da Silva, Fernanda Marques Assis
+### Desenvolvedor(a): Geovanne Marco Correa da Silva
 
 ![image](https://user-images.githubusercontent.com/97962041/200980326-657edb0d-0e1d-43be-bb4b-090f16d04220.png)
 ![image](https://user-images.githubusercontent.com/97962041/200980768-d5d1c7a3-0dc3-45ac-8dbc-80df25a64db2.png)
@@ -50,7 +50,7 @@
 
 
 ## CT-06 -  Teste da Tradução das Páginas
-### Desenvolvedor(a): Danrley G M Paula
+### Desenvolvedor(a): Danrley G M Paula, Geovanne Marco Correa da Silva
 
 Página em Português - BR
 
