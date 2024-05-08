@@ -1,4 +1,4 @@
-# HOSTAL EL ALEBRIJE
+# HOSTEL EL ALEBRIJE
 
 `Análise e Desenvolvimento de Sistemas`
 
